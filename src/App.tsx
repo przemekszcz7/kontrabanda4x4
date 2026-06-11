@@ -364,11 +364,11 @@ export default function App() {
             </span>
 
             {/* Giant Heading */}
-            <h1 className="font-condensed font-extrabold tracking-tight uppercase leading-[0.9] text-white">
-              <span className="block text-[3.8rem] sm:text-[6rem] lg:text-[7.5rem] xl:text-[9rem] hover:scale-[1.01] transition-transform duration-300 cursor-default font-extrabold tracking-wide neon-shadow-text">
+            <h1 className="font-condensed font-extrabold tracking-tight uppercase leading-[1.05] sm:leading-[0.9] text-white">
+              <span className="block text-[11.5vw] sm:text-[6rem] lg:text-[7.5rem] xl:text-[9rem] hover:scale-[1.01] transition-transform duration-300 cursor-default font-extrabold tracking-wide neon-shadow-text py-1.5">
                 KONTRABANDA
               </span>
-              <span className="block text-[4.8rem] sm:text-[8rem] lg:text-[10rem] xl:text-[11.5rem] text-bright-purple font-black tracking-normal leading-[1.0] neon-text">
+              <span className="block text-[15vw] sm:text-[8rem] lg:text-[10rem] xl:text-[11.5rem] text-bright-purple font-black tracking-normal leading-[1.0] neon-text py-1.5">
                 4x4
               </span>
             </h1>
