@@ -1,0 +1,6 @@
+{
+  "name": "Kontrabanda 4x4",
+  "description": "Profesjonalny warsztat samochodowy 4x4 w Będzinie. Szybka mechanika, modyfikacje off-road, malowanie Raptorem i bagażniki dachowe na zamówienie.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

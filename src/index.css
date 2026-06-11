@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Rajdhani:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Barlow", sans-serif;
+  --font-condensed: "Barlow Condensed", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  
+  --color-primary-purple: #7B2FBE;
+  --color-deep-purple: #5A1F8A;
+  --color-bright-purple: #9D4EDD;
+  --color-glow-purple: #C77DFF;
+  --color-dark-bg: #0A0A0A;
+  --color-dark-surface: #111111;
+  --color-card-surface: #181520;
+  --color-subtle-purple: #1A1025;
+  --color-muted-text: #9E9AAA;
+}
+
+/* Custom Utilities and Classes */
+.mesh-grid {
+  background-image: 
+    repeating-linear-gradient(0deg, rgba(157, 78, 221, 0.04) 0px, rgba(157, 78, 221, 0.04) 1px, transparent 1px, transparent 16px),
+    repeating-linear-gradient(90deg, rgba(157, 78, 221, 0.04) 0px, rgba(157, 78, 221, 0.04) 1px, transparent 1px, transparent 16px);
+  background-size: 16px 16px;
+}
+
+.neon-glow {
+  box-shadow: 0 0 30px rgba(123, 47, 190, 0.4);
+}
+
+.neon-text {
+  text-shadow: 0 0 20px rgba(157, 78, 221, 0.6);
+}
+
+.neon-shadow-text {
+  text-shadow: 0 0 40px rgba(157, 78, 221, 0.5);
+}
+
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+}
+
+.clip-hero {
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #7B2FBE;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9D4EDD;
+}
+
